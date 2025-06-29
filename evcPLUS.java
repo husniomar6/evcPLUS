@@ -1,6 +1,6 @@
 import java.util.Date;
 import java.util.Scanner;
-
+// waa qeybo ka mid ah variables ka aan isticmaali doono
 public class evcPLUS {
     static Scanner input = new Scanner(System.in);
     static final int CORRECT_PIN = 1122;
@@ -39,6 +39,9 @@ public class evcPLUS {
             return false;
         }
     }
+    
+    // adeegyada uu nooqabto adeega evc pluska
+    
     public static void showMainMenu() {
         System.out.println("\n------ EVC Plus ------");
         System.out.println("1. Itus haraagaaga");
@@ -86,14 +89,14 @@ public class evcPLUS {
         }
     }
 
-
+// qeybtaaan waxaad ku ogaaa neysaa haraa gaaga
 
     private static void Itusharaagaaga() {
         System.out.println("\nEVC Plus");
         System.out.println("Haraagaaga waa: " + haraaa);
     }
 
-
+// menu ga ku ku shubashada kaarka hadalka
     private static void Kaarkahadalka() {
         System.out.println("\nEVC Plus");
         System.out.println("1. Ku shubo airtime");
@@ -121,7 +124,8 @@ public class evcPLUS {
                 System.out.println("Invalid option.");
         }
     }
-
+ // qeyta ku shubashada kaarka hadalka
+    
     private static void Kushuboairtime() {
         System.out.println("\nEVC Plus");
         System.out.print("Fadlan geli lacagta ($): ");
@@ -140,7 +144,8 @@ public class evcPLUS {
             System.out.println("Sorry, haraaga kuguma filna.");
         }
     }
-
+ // qof kale ugu shub  kaarka hadalka
+    
     private static void ugushuboairtime() {
         System.out.println("\nEVC Plus");
         System.out.print("fadlan gali numberka: ");
@@ -163,7 +168,7 @@ public class evcPLUS {
             System.out.println("Sorry, haraaga kuguma filna.");
         }
     }
-
+// menu ga qeybta ku shubashada xirmooyinka internet ka
     private static void MIFIpackages() {
         System.out.println("\n--- Internet Bundles ---");
         System.out.println("1. is buucle - $5 = 10 GB");
@@ -212,6 +217,7 @@ public class evcPLUS {
 
 
 
+// qeyta bixinta billka 
     public class BillsApp {
 
         private static Scanner input = new Scanner(System.in);
@@ -367,7 +373,7 @@ public class evcPLUS {
         }
 
     }
-
+// qeyta u wareejinta lacagta EVC pluska
     private static void UwareejiEVCPlus() {
         System.out.println("\nEVC Plus");
         System.out.print("Fadlan geli mobilka aad u wareejinayso: ");
@@ -387,7 +393,7 @@ public class evcPLUS {
         } else
             System.out.println("mahadsanid!");
     }
-
+// menu ga lagu ogaado qeybta warbixinta kooban
     public static void WarbixinKoban() {
         Scanner input = new Scanner(System.in);
         System.out.println("Warbixin Kooban");
@@ -449,7 +455,7 @@ public class evcPLUS {
         }
     }
 
-
+// qeybta aan ku ogaaneyno  adeegyada uu nooqabto SALAAM bank
     private static void SalaamBank() {
         while (true) {
             System.out.println("\n--- Salaam Bank Services ---");
@@ -495,7 +501,7 @@ public class evcPLUS {
             }
         }
     }
-
+// qeyta lacag dhigashada SALAAM bank
     private static void Lacagdhigasho() {
         int maclumad = 123;
         System.out.println("Fadlan Geli macluumad: ");
@@ -515,7 +521,7 @@ public class evcPLUS {
             }
         }
     }
-
+ // qeyta lacag qaadashada SALAAM bank
     private static void Lacagqaadasho() {
         System.out.print("Fadlan Geli Lacagta aad rabto inaad dhigato: $");
         int amount = input.nextInt();
@@ -541,7 +547,7 @@ public class evcPLUS {
             System.out.println("mahadsanid.");
         }
     }
-
+// qeybtaan waxay noo qabaneysaa inaa lacag ka warejino SALAAM nabk
     private static void KaWareejiEVCPlus() {
         System.out.println("Fadlan dooro xisaabta Bangiga\n" +
                 "1. SALAAM SOMALI BANK\n" +
@@ -591,7 +597,7 @@ public class evcPLUS {
 
     }
 
-
+//  qeybtaan waxaad lacag ka wareejin kartaa accoun to account
     public static void KaWareejiAccountkaga() {
         System.out.println("Fadlan Geli Account ama Mobile:");
         long inputAccountOrMobile = input.nextLong();
@@ -679,7 +685,7 @@ public class evcPLUS {
             System.out.println("OTP not found");
         }
     }
-
+// qeybataan wexay noqabaneysaa inaa badali karno number sired kena
     public static void MaareyntaBankiga() {
         final int bankPin1 = 2200;
         final int bankPin2 = 1236;
@@ -775,7 +781,7 @@ public class evcPLUS {
             System.out.println("Hawlgalka waa la joojiyay. Mahadsanid.");
         }
     }
-
+// qeybtan waxan ku sameyn karnaa maarayn anigoo ka faidaysaneynaa menu gaan
     public static void Maaraynta() {
         System.out.println("\nEVC Plus");
         System.out.println("1. Bedel numberkaaga sirta ah");
@@ -860,7 +866,7 @@ public class evcPLUS {
                 break;
         }
     }
-
+// qeytan waxan ku oganeynaa haraagena billkana waan bixin karnaa
     public static void Billpayment() {
         System.out.println("\nEVC Plus");
         System.out.println("1. Itus haraaga billka");
